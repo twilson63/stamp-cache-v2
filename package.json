@@ -10,7 +10,7 @@
     "http-json-response": "^1.0.1",
     "permissive-cors": "^1.0.0",
     "warp-contracts": "^1.2.13",
-    "warp1": "npm:warp-contracts@1.11.14"
+    "warp1": "npm:warp-contracts@1.1.14"
   },
   "scripts": {
     "start": "node server.js"
