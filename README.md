@@ -1,3 +1,3 @@
-# BAR Cache Server
+# STAMP Cache Server
 
-This simple server cache's the bAR Contract
+This simple server cache's the STAMP Contract

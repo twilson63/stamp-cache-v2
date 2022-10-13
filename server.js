@@ -11,7 +11,7 @@ const warp = WarpNodeFactory.fileCached(arweave, path.join(__dirname, 'warp1-cac
 
 const server = http.createServer((req, res) => {
   corsMiddleware(req, res, async () => {
-    const result = await warp.contract('mMffEC07TyoAFAI_O6q_nskj2bT8n4UFvckQ3yELeic').setEvaluationOptions({
+    const result = await warp.contract('aSMILD7cEJr93i7TAVzzMjtci_sGkXcWnqpDkG6UGcA').setEvaluationOptions({
       internalWrites: true,
       allowUnsafeClient: true,
       allowBigInt: true
